@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap-4.1.1-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="bootstrap-4.1.1-dist/css/bootstrap.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/brands.css" integrity="sha384-VGCZwiSnlHXYDojsRqeMn3IVvdzTx5JEuHgqZ3bYLCLUBV8rvihHApoA1Aso2TZA" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/fontawesome.css" integrity="sha384-GVa9GOgVQgOk+TNYXu7S/InPTfSDTtBalSgkgqQ7sCik56N9ztlkoTr2f/T44oKV" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row menu">
+                <div class="col-xl-12 col-lg-12 col-sm-8  col-12">
+                    <div class="logoImg"></div>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-sm-4  col-12">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="#"></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Главная </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="portfolio.html">Портфолио</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="price.html">Цены</a>
+                                </li>
+                                <!-- <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Студии
+        </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="#">Colors</a>
+                                        <a class="dropdown-item" href="#">XXL</a>
+                                        <a class="dropdown-item" href="#">Желтый кролик</a>
+                                    </div>
+                                </li> -->
+                                <li class="nav-item">
+                                    <a class="nav-link" href="studio.html">Студии</a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Контакты<span class="sr-only">(current)</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <h4><strong>КОНТАКТЫ</strong></h4>
+                <p style="text-align: left;">
+                    <strong>По вопросам съемки</strong>
+                    <br> yakushevaw@gmail.com
+                    <br> Тел.: +38(050)068-50-73
+                    <br>WhatsApp, Viber, Telegram
+                </p>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <h4><strong>СОЦИАЛЬНЫЕ СЕТИ</strong><h4>
+                <br>
+                <a href="http://www.instagram.com/vita_yakusheva" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/vita.yakusheva" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.twitter.com/yakushevavita" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-cm-12 col-xs-12">
+                <h4><strong>ПРЯМАЯ СВЯЗЬ</strong></h4>
+                <form id="application" action="mail.php" method="POST" name="application ">
+                    <div class="form-group">
+                        <input name="name" class="form-control" id="applicationName" placeholder="Введите ваше имя" required />
+                    </div>
+                    <div class="form-group">
+                        <input name="email" class="form-control" type="email" id="applicationEmail" placeholder="Введите ваш E-mail" required />
+                    </div>
+                    <div class="form-group">
+                        <input name="phone" class="form-control" type="Tel" id="applicationTelephone" placeholder="Введите ваш телефон" required/>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" name="message" id="aplicationText" rows="3" placeholder="Ваше сообщение"></textarea>
+                    </div>
+                    <button class="applicationButton btn btn-light" type="submit" form="application">Отправить сообщение </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <div class="row">
+        <div class="col-lg-3 col-md-3 col-cm-3 col-xs-12">
+            <div class="container-fluid">
+                <h4><strong>КОНТАКТЫ</strong></h4>
+                <p style="text-align: left;">
+                    <strong>По вопросам съемки</strong>
+                    <br> yakushevaw@gmail.com
+                    <br> Тел.: +38(050)068-50-73
+                    <br>WhatsApp, Viber, Telegram
+                </p>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-cm-3 col-xs-12">
+            <div class="container-fluid">
+                <h4><strong>СОЦИАЛЬНЫЕ СЕТИ<strong><h4>
+                <br>
+                <a href="http://www.instagram.com/vita_yakusheva" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/vita.yakusheva" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.twitter.com/yakushevavita" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-cm-12 col-xs-12">
+        <div class="container-fluid">
+            <h4><strong>ПРЯМАЯ СВЯЗЬ</strong></h4>
+                <form id="application" action="mail.php" method="POST" name="application ">
+                    <div class="form-group">
+                        <input name="name" class="form-control" id="applicationName" placeholder="Введите ваше имя" required />
+                    </div>
+                    <div class="form-group">
+                        <input name="email" class="form-control" type="email" id="applicationEmail" placeholder="Введите ваш E-mail" required />
+                    </div>
+                    <div class="form-group">
+                        <input name="telephone" class="form-control" type="Tel" id="applicationTelephone" placeholder="Введите ваш телефон" required/>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" id="aplicationText" rows="3"></textarea>
+                    </div>
+                    <button class="applicationButton" type="submit" form="application">Отправить сообщение </button>
+                </form>
+            </div>
+        </div>
+    </div> -->
+
+
+
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="icons">
+                        <a href="http://www.instagram.com/vita_yakusheva" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/vita.yakusheva" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                    <div class="icons2">
+                        <div class="col-sm-12">
+                            <p>Вита Якушева<br>yakushevaw@gmail.com | Viber: +380500685073 </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="bootstrap-4.1.1-dist/js/bootstrap.min.js">
+    </script>
+
+</body>
+
+</html>

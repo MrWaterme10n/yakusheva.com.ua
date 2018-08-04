@@ -1,6 +1,6 @@
-.container {
+/* .container {
     max-width: 40%;
-}
+} */
 
 .navbar-nav {
     margin: auto;
@@ -23,7 +23,7 @@ li.nav-item {
     -webkit-background-size: contain;
     -o-background-size: contain;
     -moz-background-size: contain;
-    height: 15vh;
+    height: 40vh;
 }
 
 .photo {
@@ -122,7 +122,6 @@ li.nav-item {
     width: auto;
     margin: 10px auto;
 }
-
 
 .filter-button {
     font-size: 16px;
